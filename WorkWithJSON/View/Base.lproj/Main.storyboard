@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Kiva Table View Controller-->
+        <!--Kiva-->
         <scene sceneID="L3B-fL-dFl">
             <objects>
                 <tableViewController id="8a6-ok-jYq" customClass="KivaTableViewController" customModule="WorkWithJSON" customModuleProvider="target" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                             <outlet property="delegate" destination="8a6-ok-jYq" id="6Pa-iz-r7K"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="1AG-43-DCY"/>
+                    <navigationItem key="navigationItem" title="Kiva" id="1AG-43-DCY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pl9-xF-fnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

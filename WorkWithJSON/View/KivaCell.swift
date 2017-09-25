@@ -23,5 +23,4 @@ class KivaCell: UITableViewCell {
 			amountLabel.text = "$\(loan?.loan_amount ?? 0)"
 		}
 	}
-
 }
